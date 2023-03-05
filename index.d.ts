@@ -1,9 +1,11 @@
 import { Adapter } from '@sveltejs/kit';
 import './ambient.js';
+import type { BuildOptions } from 'esbuild';
 
 export default function plugin(options?: AdapterOptions): Adapter;
 
 export interface AdapterOptions {
+	esBuildOptions?: BuildOptions;
 	/**
 	 * Customize the automatically-generated `_routes.json` file
 	 * https://developers.cloudflare.com/pages/platform/functions/routing/#create-a-_routesjson-file

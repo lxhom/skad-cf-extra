@@ -2,7 +2,7 @@
 	"name": "skad-cf-extra",
 	"version": "2.2.0",
 	"license": "MIT",
-	"homepage": "https://kit.svelte.dev",
+	"homepage": "https://github.com/lxhom/skad-cf-extra",
 	"type": "module",
 	"exports": {
 		".": {
